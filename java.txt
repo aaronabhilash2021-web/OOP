@@ -1,0 +1,3 @@
+Scanner number = new Scanner(System.in);
+            num = number.nextInt();
+                    System.out.println("Enter the elements: ");
