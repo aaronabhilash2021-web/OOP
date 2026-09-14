@@ -436,7 +436,7 @@ class ViewBooks {
 
         frame.setLocationRelativeTo(null);
 
-
+6
 
         JTextArea bookArea =
                 new JTextArea();
@@ -451,8 +451,6 @@ class ViewBooks {
         
         JScrollPane scrollPane =
                 new JScrollPane(bookArea);
-
-
     
         if (LibraryManagementSystem.books.isEmpty()) {
 
@@ -594,11 +592,8 @@ class SearchBooks {
                                     || book.category
                                     .toLowerCase()
                                     .contains(searchText)) {
-
-
+                                    
                                 count++;
-
-
                                 result.append(count)
                                         .append(". ")
                                         .append(book.toString())
